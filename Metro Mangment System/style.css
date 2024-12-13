@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero-section {
+    position: relative;
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+    height: 500px;
+    color: white;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.news-bar {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 0;
+}
+.news-bar marquee {
+    font-size: 1rem;
+}
+footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px 0;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
